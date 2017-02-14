@@ -4,6 +4,7 @@ queue()
 
 function makeGraphs(error, apiData) {
 	
+    console.log('makeGraphs');
 //Start Transformations
 	var dataSet = apiData;
 	var dateFormat = d3.time.format("%m/%d/%Y");
